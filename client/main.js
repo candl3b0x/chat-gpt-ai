@@ -71,7 +71,7 @@ const handleSubmit = async (e) => {
 
   loader(messageDiv);
 
-  //fetch the data from server
+  //fetch the data from server, fetch is to be changed to deployed server site
   const response = await fetch("http://localhost:5000", {
     method: "POST",
     headers: {
